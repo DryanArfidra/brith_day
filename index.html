@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, My Person!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Audio Background Music -->
+    <!-- GANTI 'lagu-ultah.mp3' dengan nama file lagu kamu -->
+    <audio id="birthdaySong" loop>
+        <source src="/ultah/music/Nadhif Basalamah - bergema sampai selamanya (Official Lyric Video) [gvunApwKIiY].mp3" type="audio/mpeg">
+        Browser kamu tidak mendukung tag audio.
+    </audio>
+
+    <!-- Tombol untuk Kontrol Musik -->
+    <button id="musicToggle">🎵</button>
+
+    <main class="container">
+        
+        <!-- STEP 1: Halaman Pembuka -->
+        <section id="step1" class="step active">
+            <div class="content">
+                <h1>Hai, For My Person...</h1>
+                <p>Ada sesuatu yang spesial buat kamu hari ini ❤️<br>22 Oktober 2025</p>
+                <button class="nav-btn next-btn" data-next="1">Klik Disini</button>
+            </div>
+        </section>
+
+        <!-- STEP 2: Galeri Foto -->
+        <section id="step2" class="step">
+            <div class="content">
+                <h2>Happy birthday to the one who makes my heart smile. </h2>
+                <div class="photo-gallery">
+                    <!-- GANTI URL FOTO DENGAN FOTO KAMU DAN PACAR -->
+                    <img src="/ultah/img/WhatsApp Image 2025-10-08 at 21.04.36_aa6e2b15.jpg" alt="Foto 1">
+                    <img src="/ultah/img/WhatsApp Image 2025-10-08 at 21.02.27_04ef99b3.jpg" alt="Foto 2">
+                    <img src="/ultah/img/IMG-20251008-WA0043.jpg" alt="Foto 3">
+                    <img src="/ultah/img/WhatsApp Image 2025-10-08 at 21.02.26_a0146ceb.jpg" alt="Foto 4">
+                    <img src="/ultah/img/IMG-20251008-WA0044.jpg" alt="Foto 5">
+                </div>
+                <div class="navigation">
+                    <button class="nav-btn next-btn" data-next="2">Lanjut</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- STEP 3: Kata-kata Manis -->
+        <section id="step3" class="step">
+            <div class="content">
+                <h2>Sedikit Kata Untukmu</h2>
+                <p class="quote">
+                    "Cinta itu bukan tentang menemukan orang yang sempurna, tapi tentang belajar melihat kesempurnaan dalam orang yang tidak sempurna. Dan bagiku, kamu adalah kesempurnaan itu."
+                </p>
+                <div class="navigation">
+                    <button class="nav-btn prev-btn" data-prev="1">Kembali</button>
+                    <button class="nav-btn next-btn" data-next="3">Lanjut</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- STEP 4: Ucapan Ulang Tahun -->
+        <section id="step4" class="step">
+            <div class="content">
+                <h1>Selamat Ulang Tahun!</h1>
+                <p>
+                    Selamat ulang tahun untuk seseorang yang begitu berarti dalam hidupku. Di hari spesial ini, aku ingin mengucapkan terima kasih karena telah menjadi bagian dari hidupku, menemani di setiap langkah, dan selalu memberikan semangat di saat aku hampir menyerah. Aku benar-benar bersyukur bisa mengenalmu, seseorang yang begitu tulus, kuat, dan penuh kebaikan. Semoga di usia yang baru ini, semua harapan dan impianmu dapat terwujud satu per satu, dan semoga setiap langkahmu selalu dipenuhi kebahagiaan, keberanian, dan kedamaian. Aku berharap kamu terus menjadi pribadi yang hebat seperti sekarang — tidak pernah berhenti berjuang, tidak pernah berhenti tersenyum, dan tidak pernah kehilangan cahaya dalam dirimu. Selamat bertambah usia, semoga segala hal baik selalu berpihak padamu. 🌻
+                </p>
+                <p class="signature">- Dari, <span>Yang Sayang Kamu ❤️</span></p>
+                <div class="navigation">
+                    <button class="nav-btn prev-btn" data-prev="2">Kembali</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
