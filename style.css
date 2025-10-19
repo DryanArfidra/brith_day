@@ -85,6 +85,7 @@ h1, h2 {
 .wishes {
     background-color: rgba(255, 255, 255, 0.7);
     padding: 25px; /* Padding yang lebih kecil */
+    padding-bottom: 70px;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     text-align: left;
